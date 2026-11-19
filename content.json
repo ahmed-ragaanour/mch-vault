@@ -1,0 +1,337 @@
+{
+  "version": "2026-11",
+  "quiz": [
+    {
+      "id": "Q01",
+      "q": "A 70-year-old (60 kg, CrCl 22 mL/min) needs enoxaparin to treat a DVT. Which regimen is appropriate?",
+      "options": [
+        "1 mg/kg SC every 12 hours",
+        "1 mg/kg SC once daily",
+        "1.5 mg/kg SC every 12 hours",
+        "40 mg SC once daily"
+      ],
+      "answer": 1,
+      "explain": "With CrCl below 30 mL/min the treatment dose is 1 mg/kg once daily, because enoxaparin accumulates in renal impairment. Consider anti-Xa monitoring or unfractionated heparin when renal function is unstable.",
+      "source": "Enoxaparin FDA label"
+    },
+    {
+      "id": "Q02",
+      "q": "A COPD patient on theophylline needs a macrolide. Which choice is least likely to raise theophylline levels?",
+      "options": [
+        "Clarithromycin",
+        "Erythromycin",
+        "Azithromycin",
+        "All macrolides raise it equally"
+      ],
+      "answer": 2,
+      "explain": "Erythromycin and clarithromycin inhibit theophylline metabolism and can cause toxicity. Azithromycin has no clinically important effect, so it is preferred; otherwise monitor levels.",
+      "source": "Lexicomp interactions"
+    },
+    {
+      "id": "Q03",
+      "q": "Day 3 of IV levofloxacin 750 mg daily for pneumonia: afebrile for 48 h, stable, eating normally. Best recommendation?",
+      "options": [
+        "Continue IV until day 7",
+        "Switch to oral levofloxacin 750 mg once daily",
+        "Switch to oral at double the dose",
+        "Stop the antibiotic now"
+      ],
+      "answer": 1,
+      "explain": "Levofloxacin is almost 100% bioavailable, so the oral dose equals the IV dose. Switch once the patient is clinically stable and can absorb oral drugs.",
+      "source": "IDSA/ATS CAP guideline 2019"
+    },
+    {
+      "id": "Q04",
+      "q": "A ward patient (not ICU, not ventilated, normal coagulation, no GI bleed history) receives IV pantoprazole 'for prophylaxis'. Best recommendation?",
+      "options": [
+        "Continue until discharge",
+        "Switch to an oral PPI for 3 months",
+        "Stop it: no stress-ulcer prophylaxis indication",
+        "Add famotidine"
+      ],
+      "answer": 2,
+      "explain": "Stress-ulcer prophylaxis is indicated mainly for ICU patients with risk factors such as mechanical ventilation or coagulopathy. Unnecessary PPIs add cost and raise the risk of C. difficile and pneumonia.",
+      "source": "ASHP stress-ulcer prophylaxis guideline"
+    },
+    {
+      "id": "Q05",
+      "q": "Which approach to vancomycin monitoring is preferred for serious MRSA infections?",
+      "options": [
+        "Trough 15-20 mg/L for every patient",
+        "AUC-guided dosing, target AUC 400-600 mg*h/L",
+        "Peak levels only",
+        "Fixed 1 g every 12 h without levels"
+      ],
+      "answer": 1,
+      "explain": "The 2020 consensus guideline prefers AUC-guided dosing: it is as effective as high troughs with less kidney injury.",
+      "source": "ASHP/IDSA/PIDS/SIDP consensus 2020"
+    },
+    {
+      "id": "Q06",
+      "q": "A patient on sertraline is started on linezolid. What is the main interaction risk?",
+      "options": [
+        "QT prolongation",
+        "Serotonin syndrome",
+        "Nephrotoxicity",
+        "Hyperkalaemia"
+      ],
+      "answer": 1,
+      "explain": "Linezolid is a weak MAO inhibitor. With SSRIs it can cause serotonin syndrome, so consider an alternative or monitor closely for agitation, tremor, hyperthermia and clonus.",
+      "source": "Linezolid FDA label"
+    },
+    {
+      "id": "Q07",
+      "q": "Levofloxacin 750 mg every 24 h is ordered; CrCl is 35 mL/min. What is the correct adjustment?",
+      "options": [
+        "No change",
+        "750 mg every 48 h",
+        "500 mg every 24 h",
+        "250 mg every 24 h"
+      ],
+      "answer": 1,
+      "explain": "For CrCl 20-49 mL/min the 750 mg regimen becomes 750 mg every 48 h, which keeps the high peak that fluoroquinolones need.",
+      "source": "Levofloxacin FDA label"
+    },
+    {
+      "id": "Q08",
+      "q": "A patient on a heparin infusion for pulmonary embolism also has enoxaparin 40 mg SC daily on the chart. What is the problem?",
+      "options": [
+        "Dose too low",
+        "Therapeutic duplication - stop the enoxaparin",
+        "Interaction needing anti-Xa levels only",
+        "No problem: prophylaxis plus treatment is standard"
+      ],
+      "answer": 1,
+      "explain": "Two anticoagulants at the same time sharply increase bleeding risk. Prophylactic enoxaparin must stop when therapeutic heparin starts.",
+      "source": "CHEST antithrombotic guidelines"
+    },
+    {
+      "id": "Q09",
+      "q": "Hypokalaemia does not improve despite IV potassium. What should be checked and corrected first?",
+      "options": [
+        "Calcium",
+        "Magnesium",
+        "Phosphate",
+        "Sodium"
+      ],
+      "answer": 1,
+      "explain": "Low magnesium increases renal potassium loss, so potassium stays low until magnesium is replaced.",
+      "source": "Huang & Kuo, J Am Soc Nephrol 2007"
+    },
+    {
+      "id": "Q10",
+      "q": "Systemic steroids for a COPD exacerbation: what does GOLD recommend?",
+      "options": [
+        "Prednisone 40 mg daily for 5 days",
+        "Prednisone 60 mg with a 3-week taper",
+        "IV methylprednisolone 125 mg every 6 h for 10 days",
+        "Steroids are not recommended"
+      ],
+      "answer": 0,
+      "explain": "A short course of prednisone 40 mg daily for 5 days works as well as longer courses, with fewer adverse effects.",
+      "source": "GOLD report; REDUCE trial (JAMA 2013)"
+    },
+    {
+      "id": "Q11",
+      "q": "A patient stable on warfarin (INR 2.5) is started on fluconazole. What do you expect?",
+      "options": [
+        "INR falls - increase the warfarin dose",
+        "INR rises - check INR within 3-5 days and consider a dose reduction",
+        "No interaction",
+        "Only the fluconazole level changes"
+      ],
+      "answer": 1,
+      "explain": "Fluconazole inhibits CYP2C9, the main pathway for S-warfarin, so the INR can rise sharply. Monitor closely and reduce the dose if needed.",
+      "source": "Lexicomp interactions"
+    },
+    {
+      "id": "Q12",
+      "q": "What is the usual adult ceftriaxone dose for bacterial meningitis?",
+      "options": [
+        "1 g IV every 24 h",
+        "2 g IV every 24 h",
+        "2 g IV every 12 h",
+        "1 g IV every 12 h"
+      ],
+      "answer": 2,
+      "explain": "Meningitis needs high CSF levels: 2 g every 12 hours (4 g/day), versus 1-2 g daily for most other infections.",
+      "source": "IDSA bacterial meningitis guideline"
+    },
+    {
+      "id": "Q13",
+      "q": "Potassium 7.1 mmol/L with peaked T waves. Which drug is given first?",
+      "options": [
+        "IV furosemide",
+        "IV calcium gluconate",
+        "Oral potassium binder",
+        "IV sodium bicarbonate for everyone"
+      ],
+      "answer": 1,
+      "explain": "Calcium stabilises the heart muscle within minutes. It does not lower potassium, so insulin with glucose and other measures follow.",
+      "source": "UK Kidney Association hyperkalaemia guideline"
+    },
+    {
+      "id": "Q14",
+      "q": "Below which eGFR is metformin contraindicated?",
+      "options": [
+        "60 mL/min/1.73 m2",
+        "45 mL/min/1.73 m2",
+        "30 mL/min/1.73 m2",
+        "15 mL/min/1.73 m2"
+      ],
+      "answer": 2,
+      "explain": "Metformin is contraindicated below eGFR 30. Starting is not recommended at 30-45, and the dose is reviewed when eGFR falls below 45.",
+      "source": "FDA drug safety communication 2016"
+    },
+    {
+      "id": "Q15",
+      "q": "Which combination carries the highest risk of QT prolongation?",
+      "options": [
+        "Amoxicillin + paracetamol",
+        "Levofloxacin + IV haloperidol",
+        "Ceftriaxone + pantoprazole",
+        "Enoxaparin + aspirin"
+      ],
+      "answer": 1,
+      "explain": "Both drugs prolong the QT interval. Check the ECG, potassium and magnesium, or choose alternatives.",
+      "source": "CredibleMeds"
+    },
+    {
+      "id": "Q16",
+      "q": "Which electrolyte disturbance increases the risk of digoxin toxicity most?",
+      "options": [
+        "Hyperkalaemia",
+        "Hypokalaemia",
+        "Hypernatraemia",
+        "Hypophosphataemia"
+      ],
+      "answer": 1,
+      "explain": "Low potassium increases digoxin binding to Na/K-ATPase, so toxicity can occur even at 'normal' levels.",
+      "source": "Digoxin FDA label"
+    },
+    {
+      "id": "Q17",
+      "q": "A COPD patient uses tiotropium daily and also has regular ipratropium nebules four times a day. Best recommendation?",
+      "options": [
+        "Keep both",
+        "Stop the regular ipratropium: duplicate anticholinergic",
+        "Stop tiotropium and keep ipratropium",
+        "Add a third anticholinergic"
+      ],
+      "answer": 1,
+      "explain": "Both are muscarinic antagonists, so adding regular ipratropium to tiotropium adds side effects, not benefit. Use a short-acting beta-agonist for relief.",
+      "source": "GOLD report"
+    },
+    {
+      "id": "Q18",
+      "q": "A patient on clopidogrel needs a PPI. Which is preferred?",
+      "options": [
+        "Omeprazole",
+        "Esomeprazole",
+        "Pantoprazole",
+        "They are all the same"
+      ],
+      "answer": 2,
+      "explain": "Omeprazole and esomeprazole inhibit CYP2C19, which activates clopidogrel. Pantoprazole has little effect.",
+      "source": "Clopidogrel FDA label"
+    },
+    {
+      "id": "Q19",
+      "q": "Flushing and itching appear during a vancomycin infusion, blood pressure is normal. What should be done?",
+      "options": [
+        "Stop vancomycin permanently - it is an allergy",
+        "Slow the infusion (no faster than 10 mg/min) and consider an antihistamine",
+        "Give the next dose as an IV push",
+        "Switch to oral vancomycin for bacteraemia"
+      ],
+      "answer": 1,
+      "explain": "This is an infusion-rate reaction (vancomycin flushing syndrome), not a true allergy. A slower infusion usually prevents it.",
+      "source": "Vancomycin FDA label"
+    },
+    {
+      "id": "Q20",
+      "q": "VTE prophylaxis with enoxaparin for a medical patient with CrCl 25 mL/min: what dose?",
+      "options": [
+        "40 mg SC once daily",
+        "30 mg SC once daily",
+        "20 mg SC twice daily",
+        "Enoxaparin is contraindicated"
+      ],
+      "answer": 1,
+      "explain": "With CrCl below 30 mL/min the prophylactic dose is 30 mg once daily. Unfractionated heparin is an alternative.",
+      "source": "Enoxaparin FDA label"
+    }
+  ],
+  "tips": {
+    "No indication": [
+      "Ask 'what is this for?' for every drug. Stress-ulcer prophylaxis outside ICU risk criteria and continued empiric antibiotics are common examples.",
+      "ASHP"
+    ],
+    "Duplication": [
+      "Look across routes and names: IV plus oral PPI, two anticoagulants, or two drugs of the same class under different brands.",
+      "Lexicomp"
+    ],
+    "Untreated indication": [
+      "Admission medication reconciliation finds omitted home medicines such as inhalers, antiepileptics and antihypertensives.",
+      "WHO High 5s"
+    ],
+    "Prophylaxis needed": [
+      "Assess VTE risk (for example Padua score 4 or more in medical patients) and bleeding risk before recommending prophylaxis.",
+      "CHEST 2012"
+    ],
+    "Add-on therapy needed": [
+      "State the goal the current therapy is missing (for example blood pressure or glucose target) when recommending an add-on.",
+      "Clinical practice"
+    ],
+    "Ineffective / better option": [
+      "Review culture results at 48-72 h and de-escalate or switch to the narrowest effective antibiotic.",
+      "IDSA stewardship guideline"
+    ],
+    "Contraindication / risk factor": [
+      "Clarify the allergy type: a remote rash is different from anaphylaxis. Many 'penicillin allergies' can take cephalosporins.",
+      "AAAAI/ACAAI 2022"
+    ],
+    "Route / dosage form": [
+      "Highly bioavailable drugs (levofloxacin, linezolid, metronidazole, fluconazole) switch IV to oral at the same dose once the patient is stable.",
+      "IDSA"
+    ],
+    "Interaction": [
+      "Name the mechanism - CYP, QT, serotonergic or additive bleeding. It tells you the fix: another drug, a dose change, or monitoring.",
+      "Lexicomp"
+    ],
+    "Dose too high": [
+      "Check weight and kidney function before calling a dose high: most labels base renal dosing on Cockcroft-Gault CrCl.",
+      "FDA renal guidance"
+    ],
+    "Dose too low": [
+      "Severe infections often need loading doses (for example vancomycin 20-35 mg/kg) even when maintenance doses are reduced.",
+      "ASHP/IDSA 2020"
+    ],
+    "Frequency / interval": [
+      "Beta-lactams depend on time above MIC: stretching the interval lowers efficacy even if the daily dose is the same.",
+      "Sanford Guide"
+    ],
+    "Duration": [
+      "Community-acquired pneumonia usually needs 5 days when the patient is clinically stable.",
+      "IDSA/ATS 2019"
+    ],
+    "Renal / hepatic dose": [
+      "Write the CrCl you used and the source table in the details, so the physician can check it quickly.",
+      "Clinical practice"
+    ],
+    "Monitoring needed": [
+      "A good monitoring recommendation states the test, the timing and the target - for example 'INR in 3 days, target 2-3'.",
+      "Clinical practice"
+    ],
+    "Adverse reaction": [
+      "Report suspected adverse reactions to your national pharmacovigilance centre and record them in the patient file.",
+      "WHO pharmacovigilance"
+    ]
+  },
+  "case": {
+    "title": "Case of the month: the theophylline level",
+    "text": "A 68-year-old man with a COPD exacerbation was on oral theophylline. Clarithromycin was started for pneumonia. On day 3 he had nausea, palpitations and a theophylline level of 24 mg/L.",
+    "lesson": "Clarithromycin inhibits theophylline metabolism. The pharmacist recommended holding theophylline, rechecking the level, and switching to azithromycin. Check every new antibiotic against drugs with a narrow therapeutic range."
+  },
+  "schedule": "One question per working day, Sunday to Thursday, in this order. Friday and Saturday keep Thursday's question."
+}
